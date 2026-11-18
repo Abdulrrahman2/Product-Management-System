@@ -1,0 +1,73 @@
+/* Responsive Design */
+
+/* Tablets */
+@media (max-width: 992px) {
+    .table {
+        width: 80%;
+    }
+
+    .table .table-head {
+        font-size: 17px;
+    }
+
+    .table .table-body td {
+        font-size: 15px;
+        padding: 8px 5px;
+    }
+}
+
+/* Small Tablets */
+@media (max-width: 768px) {
+    .table {
+        width: 95%;
+    }
+
+    .table .table-head {
+        font-size: 15px;
+        padding: 10px 0;
+    }
+
+    .table .table-body td {
+        font-size: 14px;
+        padding: 8px 3px;
+    }
+
+    .table .table-body td button {
+        width: 50px;
+        height: 27px;
+        font-size: 13px;
+    }
+
+    .table .table-footer {
+        font-size: 16px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .table {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .table .table-head {
+        font-size: 12px;
+        padding: 8px 2px;
+    }
+
+    .table .table-body td {
+        font-size: 11px;
+        padding: 7px 2px;
+    }
+
+    .table .table-body td button {
+        width: 42px;
+        height: 25px;
+        font-size: 11px;
+    }
+
+    .table .table-footer {
+        font-size: 13px;
+        padding: 10px 0;
+    }
+}

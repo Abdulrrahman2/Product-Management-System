@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Form</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+ </head>
+<body>
+   
+    <form class="form">
+        <legend>Product Form</legend>
+        <fieldset>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" placeholder="Name">
+        <br>
+        <label for="cat" >Category:</label>
+        <select id="cat" class="cate">
+            <option value="smartphone">Smartphone</option>
+            <option value="tablet">Tablet</option>
+            <option value="laptop">Laptop</option>
+        </select>
+        <br>
+
+        <label for="price">Price:</label><br>
+        <input type="number" id="price" placeholder="Price">
+
+        <br>
+        <label for="Quantity">Quantity:</label><br>
+        <input type="number" id="Quantity" placeholder="Quantity">
+
+        <br>
+        <label for="dis">Discount:</label><br>
+        <input type="number" id="dis" placeholder="Discount">
+
+         <button type="submit" class="submit">Submit</button>
+    </fieldset>
+    </form>
+
+    <br><br><br>
+    <table class="table" border="1" cellspacing="0" cellpadding="10">
+        <thead class="table-head">
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Category</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Discount</th>
+                <th>Total Price</th>
+                <th>Update</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody class="table-body">
+            <tr>
+                <td class="id"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><button class="update">Update</button></td>
+                <td><button class="delete">Delete</button></td>
+            </tr>
+
+
+        </tbody>
+
+        <tfoot class="table-footer">
+            <tr>
+                <td colspan="5">Total Price </td>
+                <td colspan="4" class="total-price"></td>
+            </tr>
+
+
+        </tfoot>
+    </table>
+    <br><br><br>
+
+
+     <script src="main.js"></script>
+    </body>
+</html>
